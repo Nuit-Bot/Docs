@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 export default defineConfig({
+    base: "/docs/",
     title: "Nuit",
     description: "The free, self-hostable and open Discord bot",
     markdown: {
