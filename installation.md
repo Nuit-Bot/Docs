@@ -59,7 +59,7 @@ cd Nuit
 If you want a more stable build (so less updates, recommended for production), type this command:
 
 ```bash
-git checkout origin main
+git switch -c main --track origin/main
 ```
 
 Install packages:
