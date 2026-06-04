@@ -68,6 +68,14 @@ Install packages:
 bun install # --frozen-lockfile in production
 ```
 
+Make environment variables:
+
+```bash
+cp .env.example .env
+```
+
+Edit the `.env` file to add your bot token and other environment variables.
+
 Make the database migrations:
 
 ```bash
