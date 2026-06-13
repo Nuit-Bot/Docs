@@ -25,7 +25,6 @@ export default defineConfig({
                     { text: "Updating", link: "/updating" },
                 ],
             },
-
             {
                 text: "Other",
                 items: [
@@ -35,6 +34,11 @@ export default defineConfig({
             },
         ],
 
-        socialLinks: [{ icon: "github", link: "https://github.com/Nuit-Bot" }],
+        socialLinks: [
+            {
+                icon: "github",
+                link: "https://github.com/Nuit-Bot",
+            },
+        ],
     },
 });
