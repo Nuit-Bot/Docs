@@ -47,5 +47,8 @@ export default defineConfig({
                 link: "https://github.com/Nuit-Bot",
             },
         ],
+        search: {
+            provider: "local",
+        },
     },
 });
