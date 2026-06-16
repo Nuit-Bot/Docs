@@ -32,6 +32,13 @@ export default defineConfig({
                     { text: "About", link: "/about" },
                 ],
             },
+            {
+                text: "Legal",
+                items: [
+                    { text: "Terms of Service", link: "/legal/tos" },
+                    { text: "Privacy Policy", link: "/legal/privacy" },
+                ],
+            },
         ],
 
         socialLinks: [
@@ -40,5 +47,8 @@ export default defineConfig({
                 link: "https://github.com/Nuit-Bot",
             },
         ],
+        search: {
+            provider: "local",
+        },
     },
 });
